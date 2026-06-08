@@ -1,0 +1,11 @@
+# Núcleo (PLN + similaridade)
+spacy>=3.7.0
+scikit-learn>=1.3.0
+
+# Funcionalidade extra: voz (requisito 5)
+SpeechRecognition>=3.10.0   # reconhecimento de fala (STT) - entrada por microfone
+pyttsx3>=2.90               # síntese de voz (TTS) - leitura das respostas
+PyAudio>=0.2.13             # acesso ao microfone (necessário para o SpeechRecognition)
+
+# Depois de instalar, baixe também o modelo de português do spaCy:
+#   python -m spacy download pt_core_news_sm
